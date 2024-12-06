@@ -25,6 +25,7 @@ The wayback machine is an archive of the entire internet. Basically they go to e
 
     kali> sudo  go install github.com/tomnomnom/waybackurls@latest && sudo cp /root/go/bin/waybackurls /usr/bin
 ![wayback script](https://github.com/user-attachments/assets/566dc546-4a2b-4dae-8e22-a00a9d26adbc)
+
 View results of the scan
 ![wayback results](https://github.com/user-attachments/assets/8615afca-db74-45f5-ad10-fa79d0ddc10a)
 
