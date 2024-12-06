@@ -12,4 +12,16 @@ Looking for subdomains onthe web applications provides you with a new angle to a
     kali> sudo apt install sublist3r
 ![subdomain](https://github.com/user-attachments/assets/3bbaee12-f220-43d1-8d25-7ea0b8213e1c)
 
+# Taking Screenshots of sub domains
+Next script screenshots.sh, uses EyeWitness tool to grab screenshots from a list of urls. These provides us with a quick scan for interesting pages amoung the list of enumerated paths of the web application.
+
+    kali> sudo apt install eyewitness
+![screenshot](https://github.com/user-attachments/assets/d0d6a654-da0b-49fa-af03-619109c24f8d)
+
+# Waybackurl
+The wayback machine is an archive of the entire internet. Basically they go to every website and they crawl it while taking screenshots and logging the data to a database. We can use this data to find interesting files but you can also find vulnerabilities by looking at the data example:If you see the GET parameter “msg=” you can test for XSS. 
+
+    kali> sudo apt install golang -y          #install go first before running the command to install the tool
+
+    kali> sudo  go install github.com/tomnomnom/waybackurls@latest && sudo cp /root/go/bin/waybackurls /usr/bin
 
