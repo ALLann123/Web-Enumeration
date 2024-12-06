@@ -6,4 +6,10 @@ target_information.sh script is used to get background information of the web ap
     kali> sudo apt install nmap
 ![target](https://github.com/user-attachments/assets/47db7466-d0e7-43e6-8303-d036a992143e)
 
+# Subdomain Enumeration
+Looking for subdomains onthe web applications provides you with a new angle to attack the web application. The script sub_domain_enumeration.sh handles this process. We use the web site crt.sh which provides web certificates and all the related sub domains and also we use the tool sublist3r to do an additional passive reccon(we are not engaging with the target directly but relying on other sources of enumeration to get information). After getting the results we can use the sort command in linux to filter out duplicates and get a final list of subdomains.
+
+    kali> sudo apt install sublist3r
+![subdomain](https://github.com/user-attachments/assets/3bbaee12-f220-43d1-8d25-7ea0b8213e1c)
+
 
