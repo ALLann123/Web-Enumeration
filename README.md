@@ -18,6 +18,9 @@ Next script screenshots.sh, uses EyeWitness tool to grab screenshots from a list
     kali> sudo apt install eyewitness
 ![screenshot](https://github.com/user-attachments/assets/d0d6a654-da0b-49fa-af03-619109c24f8d)
 
+After getting the screenshot they can be viewed inthe browser window using report.html
+![screenshot result](https://github.com/user-attachments/assets/a867c984-7c1b-4cca-b21d-1d654b387f29)
+
 # Waybackurl
 The wayback machine is an archive of the entire internet. Basically they go to every website and they crawl it while taking screenshots and logging the data to a database. We can use this data to find interesting files but you can also find vulnerabilities by looking at the data example:If you see the GET parameter “msg=” you can test for XSS. 
 
